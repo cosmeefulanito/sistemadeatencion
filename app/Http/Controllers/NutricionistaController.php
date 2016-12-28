@@ -3,13 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-<<<<<<< HEAD
+
 use App\Nutricionista;
 use App\Usuario;
-=======
 
-use App\Http\Requests;
->>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
 
 class NutricionistaController extends Controller
 {
@@ -20,11 +17,10 @@ class NutricionistaController extends Controller
      */
     public function index()
     {
-<<<<<<< HEAD
+
         return view('nutricionista.index');
-=======
-        return view('nutricionistas.index');
->>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
+
+
     }
 
     /**
@@ -34,11 +30,10 @@ class NutricionistaController extends Controller
      */
     public function create()
     {
-<<<<<<< HEAD
+
         return view('nutricionista.create');
-=======
-        return view('nutricionistas.create');
->>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
+
+
     }
 
     /**
@@ -48,15 +43,13 @@ class NutricionistaController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-<<<<<<< HEAD
-    {      
+
+    {
 
         return dd($request->all());
 
-=======
-    {
-        //
->>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
+
+  
     }
 
     /**

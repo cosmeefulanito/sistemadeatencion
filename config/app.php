@@ -38,11 +38,11 @@ return [
     |
     */
 
-<<<<<<< HEAD
+
     'debug' => env('APP_DEBUG', true),
-=======
+
     'debug' => env('APP_DEBUG', false),
->>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
+
 
     /*
     |--------------------------------------------------------------------------
@@ -166,20 +166,18 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-<<<<<<< HEAD
-=======
-        
->>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
+
+
 
         /*
          * Package Service Providers...
          */
-<<<<<<< HEAD
+
         Way\Generators\GeneratorsServiceProvider::class,
         Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class,
-=======
+
         //laravelcollective
->>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
+
         Collective\Html\HtmlServiceProvider::class,
 
         //
@@ -193,10 +191,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
     ],
 
     /*
@@ -244,15 +239,15 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-<<<<<<< HEAD
+
         'Form' => 'Collective\Html\FormFacade',
         'Html' => 'Collective\Html\HtmlFacade',
-=======
+
 
         //LaravelCollective...
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
->>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
+
 
     ],
 
