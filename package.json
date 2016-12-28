@@ -8,7 +8,11 @@
     "bootstrap-sass": "^3.3.7",
     "gulp": "^3.9.1",
     "jquery": "^3.1.0",
+<<<<<<< HEAD
     "laravel-elixir": "^6.0.0-9",
+=======
+    "laravel-elixir": "^6.0.0-11",
+>>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
     "laravel-elixir-vue-2": "^0.2.0",
     "laravel-elixir-webpack-official": "^1.0.2",
     "lodash": "^4.16.2",

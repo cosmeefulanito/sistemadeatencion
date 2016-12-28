@@ -6,17 +6,26 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+<<<<<<< HEAD
         "laravel/framework": "5.3.*"
+=======
+        "laravel/framework": "5.3.*",
+        "laravelcollective/html": "^5.3.0"
+>>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~5.0",
         "symfony/css-selector": "3.1.*",
+<<<<<<< HEAD
         "symfony/dom-crawler": "3.1.*",
         "xethron/migrations-generator": "dev-l5",
         "way/generators": "dev-feature/laravel-five-stable",
         "laravelcollective/html": "~5.0"
+=======
+        "symfony/dom-crawler": "3.1.*"
+>>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
     },
     "autoload": {
         "classmap": [
@@ -49,11 +58,14 @@
     },
     "config": {
         "preferred-install": "dist"
+<<<<<<< HEAD
     },
     "repositories": {
         "repo-name": {
             "type": "git",
             "url": "git@github.com:jamisonvalenta/Laravel-4-Generators.git"
         }
+=======
+>>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
     }
 }

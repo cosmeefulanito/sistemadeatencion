@@ -3,8 +3,13 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+<<<<<<< HEAD
 use Validator;
 use App\Http\Controllers\Controller;
+=======
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Validator;
+>>>>>>> 5b5c86165c6c86e88b1d647a34fae95ec78f4132
 use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
